@@ -10,5 +10,6 @@ Included Libraries
 References
 ==========
 
-* [Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries)
-* [Arduino Libraries](https://www.arduino.cc/en/Hacking/Libraries)
+* [List of Libraries](https://www.arduino.cc/en/Reference/Libraries) (Arduino Reference)
+* [Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries) (Arduino Guide)
+* [Arduino Libraries](https://www.arduino.cc/en/Hacking/Libraries) (Arduino Hacking)
