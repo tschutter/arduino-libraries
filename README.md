@@ -4,7 +4,7 @@ Arduino sketchbook/libraries
 Included Libraries
 ==================
 
-* [Bounce2](https://github.com/thomasfredericks/Bounce2) Debouncing
+* [Bounce2](https://github.com/thomasfredericks/Bounce2): Debouncing
   library for Arduino or Wiring
 
 References
