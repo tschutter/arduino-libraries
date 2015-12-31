@@ -21,7 +21,8 @@ Bounce::Bounce()
 
 void Bounce::attach(int pin) {
     this->pin = pin;
-    bool read = digitalRead(pin);
+    // commented out superfluous code; tschutter 2015-12-31
+    // bool read = digitalRead(pin);
     state = 0;
     if (digitalRead(pin)) {
         state = _BV(DEBOUNCED_STATE) | _BV(UNSTABLE_STATE);
@@ -35,7 +36,7 @@ void Bounce::attach(int pin) {
 
 void Bounce::attach(int pin, int mode){
   pinMode(pin, mode);
-  
+
   this->attach(pin);
 }
 
